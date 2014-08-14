@@ -1,5 +1,4 @@
 # ResponsiveLime
-==========
 
 ResponsiveLime is a LimeSurvey template that builds on Foundation to exchange the default table layout with a responsive grid. Furthermore it uses retina.js to handle high resolution images.
 
@@ -14,8 +13,8 @@ ResponsiveLime is a LimeSurvey template that builds on Foundation to exchange th
 
 ## Credits
 
-- Foundation 5.3.3 (normalize.css, modernizer.js)
-- retina.js
+- [Foundation 5.3.3](http://foundation.zurb.com/) (normalize.css, modernizer.js)
+- [retina.js](http://retinajs.com/)
 
 ## Future development
 
