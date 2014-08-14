@@ -1,0 +1,6 @@
+                <div id="assessment" class="row">
+  <div class="small-12 columns">
+	<h3>{ASSESSMENT_HEADING}</h3>
+	{ASSESSMENTS}
+  </div>
+</div>                        

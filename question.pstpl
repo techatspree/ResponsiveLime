@@ -1,0 +1,18 @@
+                                                                                                                                                                                <div class="row">
+    <div {QUESTION_ESSENTIALS} class="small-12 columns question-wrapper {QUESTION_CLASS}{QUESTION_MAN_CLASS}{QUESTION_INPUT_ERROR_CLASS}{if(!is_empty(QUESTION_MANDATORY)," required","")}"{if(!is_empty(QUESTION_CODE)," data-code='"+QUESTION_CODE+"' ","")}>
+            <div class="question-text">
+                    {if(!is_empty(QUESTION_MANDATORY),"<span class='asterisk'>"+QUESTION_MANDATORY+"</span>","")}
+                    {if(!is_empty(QUESTION_NUMBER) or !is_empty(QUESTION_CODE),"<span class='qnumcode'>"+QUESTION_NUMBER+" "+QUESTION_CODE+"</span>","")}
+            	    <p>{QUESTION_TEXT}</p>
+            </div>
+            <div class="help-wrapper">
+                    {if(!is_empty(QUESTION_MAN_MESSAGE),"<span class='mandatory error'>"+QUESTION_MAN_MESSAGE+"</span>","")}
+                    {QUESTION_VALID_MESSAGE}
+                    {if(!is_empty(QUESTION_HELP),"<p class='tip help'>"+QUESTION_HELP+"</p>","")}
+            </div>
+            <div class="answers clearfix">{ANSWER}</div>
+            {if(!is_empty(QUESTIONHELP),"<p class='question-help clearfix'>"+QUESTIONHELP+"</p>","")}
+	<hr>
+    </div>
+</div>
+                                                                                                                                                

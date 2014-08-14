@@ -1,0 +1,8 @@
+<div id="clearall" class="row">
+    <div class="small-12 columns">
+    	<p class="answercleared">{ANSWERSCLEARED}</p>
+	<p class="restart">{RESTART}</p>
+	<p class="closewindow">{CLOSEWINDOW}</p>	
+    </div>
+</div>
+                                                            

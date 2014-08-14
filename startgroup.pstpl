@@ -1,0 +1,3 @@
+                                                                <div class="group">
+                  {if(!is_empty(GROUPNAME),"<div class='row'><div class='small-12 columns'><h2 class='grouptitle'>"+GROUPNAME+"</h2></div></div>","")}
+                                                

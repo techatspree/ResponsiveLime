@@ -1,0 +1,6 @@
+{if(!is_empty(LANGUAGECHANGER),"<div class='row'><div class='tools languageselect small-12 columns' id='languageselect-wrapper'>"+LANGUAGECHANGER+"</div></div>","")}
+{if(!is_empty(SURVEYDESCRIPTION),"<div class='row'><div class='description surveydescription small-12 columns'>"+SURVEYDESCRIPTION+"<hr></div></div>","")}
+
+{PERCENTCOMPLETE}
+
+            

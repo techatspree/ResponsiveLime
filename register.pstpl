@@ -1,0 +1,8 @@
+<div id="register" class="row">
+	<div class="small-12 columns"
+      		<strong class="error">{REGISTERERROR}</strong>
+                <p>{REGISTERMESSAGE1}</p>
+      		<p>{REGISTERMESSAGE2}</p>
+      		<div class="form">{REGISTERFORM}</div>
+	</div>                  
+</div>            

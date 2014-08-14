@@ -1,0 +1,15 @@
+                                                                                                <div id='load' class="row">
+    <div class="small-12 columns">
+        <h3>{LOADHEADING}</h3>        
+
+      	<p>{LOADMESSAGE}</p>
+                      
+      	<div class="form">
+	        <div class="error">{LOADERROR}</div>
+        	{LOADFORM}
+      	</div>
+
+        <p>{RETURNTOSURVEY}</p>
+    </div>
+</div>
+                                                                                                            

@@ -1,0 +1,36 @@
+header > div {
+	margin: 0.5rem 0;
+}
+
+.info-text {
+	font-size: 0.875rem;
+  	font-style: italic;
+}
+
+.privacy-message {
+	font-size: 0.875rem;
+}
+
+.answers ul {
+  	list-style: none;
+}
+
+.hide {
+	display: none !important;
+}
+
+.error, .asterisk {
+  	color: #f04124;
+}
+
+.asterisk {
+	float: left;
+}
+
+#movesubmitbtn, #movenextbtn {
+	float: right;
+}
+
+.ui-progressbar-value {
+	height: 100%;
+}                                                

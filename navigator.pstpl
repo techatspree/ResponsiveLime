@@ -1,0 +1,8 @@
+                                                                                                                                <nav class="row">
+	<div class="small-12 columns">{NAVIGATOR}</div>
+</nav>
+{if(!is_empty(SAVE) or !is_empty(CLEARALL),"<div class='save-or-clear row'><div class='small-12 columns text-center'>","")}
+	{if(!is_empty(SAVE),SAVE,"")}
+	{if(!is_empty(CLEARALL),CLEARALL,"")}
+{if(!is_empty(SAVE) or !is_empty(CLEARALL),"</div></div>","")}
+                                                                                                                                                                                                                                    

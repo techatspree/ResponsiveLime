@@ -1,0 +1,7 @@
+                <div id="completed" class="row">
+	<div class="small-12 columns">
+		<p>{COMPLETED}</p>
+		{if(!is_empty(URL),"<p class='url endurl'>"+URL+"</p>","")}
+	</div>
+</div>
+                        
