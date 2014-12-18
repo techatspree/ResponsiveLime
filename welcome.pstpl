@@ -1,10 +1,13 @@
 {CHECKJAVASCRIPT}
-{if(!is_empty(LANGUAGECHANGER),"<div class='row'><div class='tools languageselect small-12 columns' id='languageselect-wrapper'>"+LANGUAGECHANGER+"</div></div>","")}
-{if(!is_empty(SURVEYDESCRIPTION),"<div class='row'><div class='description surveydescription small-12 columns'>"+SURVEYDESCRIPTION+"<hr></div></div>","")}
+<div class='row'>
+  {if(!is_empty(LANGUAGECHANGER),"<div class='tools languageselect small-12 medium-4 large-2 medium-push-8 large-push-10 columns' id='languageselect-wrapper'>"+LANGUAGECHANGER+"</div><div class='description surveydescription medium-8 large-10 medium-pull-4 large-pull-2 columns'>"+SURVEYDESCRIPTION+"</div>","<div class='description surveydescription small-12 columns'>"+SURVEYDESCRIPTION+"</div>")}
+</div>
+
 <div class='row'>
 	<div class="surveywelcome small-12 columns">
+          <hr />
         	{WELCOME}
           {if(!is_empty(THEREAREXQUESTIONS),"<p class='info-text'>"+THEREAREXQUESTIONS+"</p>","")}
 	</div>
 </div>
-                                                                                                                        
+                                                                                                                                                                                                            
