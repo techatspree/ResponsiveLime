@@ -79,7 +79,8 @@ function compactMultipleOptComments(){ // reponsive compact layout for multiple 
     $('div.answers ul.subquestions-list.checkbox-text-list li',this).each(function () {
       $(this).addClass("row");
       $('span.option',this).addClass("medium-6 large-4 columns");
-      $('span.comment',this).addClass("medium-6 large-8 columns");        
+      $('span.comment',this).addClass("medium-6 large-8 columns");   
+      $('label.answertext input.text.other',this).width("70%").css("display","inline-block"); //inline label box for "other"
     });  
   });
 }
