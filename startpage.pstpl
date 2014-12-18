@@ -23,16 +23,14 @@
 <body class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} no-js">
 
 	<header class="row">
-		<div class="small-12 columns">
+		<div class="medium-8 large-10 columns">
+		<h1>{SURVEYNAME}</h1>	
+          </div>
+          <div class="medium-4 large-2 columns hide-for-small-only">
 	    	<img src="{TEMPLATEURL}images/akquinet_logo.png" alt="akquinet AG Logo" class="left"/>
-            <!--<h1>{SITENAME}</h1>-->
+            <!--<h3>{SITENAME}</h3>-->
 		</div>
 	</header>
 	
-  	<div class="row">
-		<div class="small-12 columns">
-			<h1>{SURVEYNAME}</h1>
-        </div>  
-	</div>
     
 	<section>          	                                                                                                                                                                                                                                                                                                                                    
