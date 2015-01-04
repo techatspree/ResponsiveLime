@@ -2,7 +2,8 @@
 
 ResponsiveLime is a LimeSurvey template that builds on Foundation to exchange the default table layout with a responsive grid. Furthermore it uses retina.js to handle high resolution images.
 
-![Preview of ResponsiveLime on a small screen (320px width)](http://akquinetblog.files.wordpress.com/2014/08/responsivelime_preview_320px1.png)
+![Preview of ResponsiveLime on a small screen (320px width)](http://akquinetblog.files.wordpress.com/2014/08/responsivelime_preview_320px1.png =320x)
+
 *Preview of ResponsiveLime (left) and LimeSurvey’s default template (right) for a screen width of 320px (e.g., iPhone 5S). Please find more screenshots on our [akquinet blog](http://blog.akquinet.de/2014/08/14/responsivelime-making-limesurvey-responsive-with-foundation/)*
 
 ## Install
