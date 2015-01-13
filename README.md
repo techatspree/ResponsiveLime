@@ -6,6 +6,8 @@ ResponsiveLime is a LimeSurvey template that builds on Foundation to exchange th
 
 *Preview of ResponsiveLime (left) and LimeSurvey’s default template (right) for a screen width of 320px (e.g., iPhone 5S). Please find more screenshots on our [akquinet blog](http://blog.akquinet.de/2014/08/14/responsivelime-making-limesurvey-responsive-with-foundation/)*
 
+ResponsiveLime is licensed under the GPL v3.
+
 ## Install
 
 1. Download the repository
