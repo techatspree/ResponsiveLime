@@ -1,6 +1,7 @@
-{if(!is_empty(LANGUAGECHANGER),"<div class='row'><div class='tools languageselect small-12 columns' id='languageselect-wrapper'>"+LANGUAGECHANGER+"</div></div>","")}
-{if(!is_empty(SURVEYDESCRIPTION),"<div class='row'><div class='description surveydescription small-12 columns'>"+SURVEYDESCRIPTION+"<hr></div></div>","")}
-
-{PERCENTCOMPLETE}
-
-            
+<div class='row'>
+  <div class='small-12 medium-4 large-3 medium-push-8 large-push-9 columns'>
+    <div class="tools languageselect" id='languageselect-wrapper'>{LANGUAGECHANGER}</div>
+  {PERCENTCOMPLETE}
+  </div>
+ <div class='description surveydescription medium-8 large-9 medium-pull-4 large-pull-3 columns'>{SURVEYDESCRIPTION}</div>
+</div>

@@ -73,11 +73,27 @@ function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
    }    
 }
 
+
+function compactMultipleOptComments(){ // reponsive compact layout for multiple options lists with comments
+  $('div.question-wrapper.multiple-opt-comments').each(function () {
+    $('div.answers ul.subquestions-list.checkbox-text-list li',this).each(function () {
+      $(this).addClass("row");
+      $('span.option',this).addClass("medium-6 large-4 columns");
+      $('span.comment',this).addClass("medium-6 large-8 columns");   
+      $('label.answertext input.text.other',this).width("70%").css("display","inline-block"); //inline label box for "other"
+    });  
+  });
+}
+
+
 $(document).ready(function(){
   $('input[type="submit"], input[type="button"]').removeClass("ui-button ui-widget ui-state-default ui-corner-all");
   $('input[type="submit"], input[type="button"]').addClass("button secondary tiny");
   /*$("#progressbar").removeClass("ui-progressbar ui-widget ui-widget-content ui-corner-all");
   $("#progressbar").addClass("progress");
   $("#progressbar>div").removeClass("ui-progressbar-value ui-widget-header ui-corner-left").addClass("meter");*/
+  
+  compactMultipleOptComments();
+  
 });
                                                                                                                                                                                                 
